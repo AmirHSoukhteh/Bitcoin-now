@@ -10,3 +10,7 @@ data = json.loads(r.text)
 # use dictionary key-value to find price 
 btc_price = data['bpi']['USD']['rate']
 
+# Change type of btc_price to int
+btc_price = int(float(btc_price.replace(",","")))
+
+print(f"bitcoin price is {btc_price}")
