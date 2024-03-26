@@ -1,2 +1,2 @@
 # Bitcoin-now
-Mini project for get price of bitcoin
+Mini project to get the price of Bitcoin and say it out loud.
