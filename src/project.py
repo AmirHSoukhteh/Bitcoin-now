@@ -18,8 +18,8 @@ btc_price = data['bpi']['USD']['rate']
 
 # Change type of btc_price to int
 btc_price = int(float(btc_price.replace(",","")))
-print(f"bitcoin price is {btc_price}")
+print(f"bitcoin price is {btc_price} $")
 
 # Speak text
-engine.say(f"bitcoin price is {btc_price}")
+engine.say(f"bitcoin price is {btc_price} $")
 engine.talkback()
